@@ -1,8 +1,23 @@
-<p style="text-align: center; background-color: white;">
-    <a href="{{site.baseurl}}/">Home</a> |
-    <a href="{{site.baseurl}}/admin/">Admin</a> |
-    <a href="{{site.baseurl}}/schedule/week_1/">Week 1</a> |
-    <a href="{{site.baseurl}}/schedule/week_2/">Week 2</a> |
-    <a href="{{site.baseurl}}/schedule/week_3/">Week 3</a> |
-    <a href="{{site.baseurl}}/general/">Misc</a>
-</p>
+<div class="navigation-wrapper">
+<!--    <div class="site-name">-->
+<!--        {% if site.logo %}-->
+<!--        <a href="{{ site.github.url }}/"><img src="{{ site.github.url }}/images/{{ site.logo }} "></a>-->
+<!--        {% else %}-->
+<!--        <a href="{{ site.github.url }}/">{{ site.title }}</a>-->
+<!--        {% endif %}-->
+<!--    </div>&lt;!&ndash; /.site-name &ndash;&gt;-->
+    <div class="top-navigation">
+        <nav role="navigation" id="site-nav" class="nav">
+            <ul>
+                {% for link in site.data.navigation %}
+                {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+                {% else %}
+                {% assign domain = site.github.url %}
+                {% endif %}
+                <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->

@@ -12,6 +12,24 @@ body {
   background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
 }
 
+.top-navigation {
+  padding: 2em 0 1em;
+  //font-family: $heading-font;
+  font-weight: 600;
+  text-transform: uppercase;
+  //padding-top: 25px;
+  border-top-style: solid;
+  border-top-color: #2268b2;
+  border-top-width: .5em;
+  border-bottom-style: solid;
+  border-bottom-color: #2268b2;
+  border-bottom-width: .5em;
+}
+
+.navigation-wrapper {
+  padding-top: 50px;
+}
+
 p {
   margin-top: 0;
 }

@@ -9,7 +9,9 @@ In order to be like people you admire you should do what they are doing. In my c
 
 I didn’t know how and where to start. Everything I wanted is to keep it simple, but also highly customizable. So I chose Github pages to host my blog. 
 
-1. Create a Github repository (insert screenshot)
+1. Create a Github repository 
+
+    <img src="../assets/Screenshot_1.jpg" alt="screenshot1" style="width:200px"/>
 
     * Go to https://github.com/new
     * Give a name to your repository.(it should match the following pattern: username.github.io where username is your Github username)
@@ -19,9 +21,11 @@ I didn’t know how and where to start. Everything I wanted is to keep it simple
 
 2. Enable Github Pages. 
 
-    * Go to the Settings menu. (insert screenshot)
+    * Go to the Settings menu. 
+    <img src="../assets/Screenshot_2.jpg" alt="screenshot2" style="width:200px"/>
     * Scroll down to the Github Pages settings. 
-    * Choose the branch from where Github will serve your blog. (insert screenshot)
+    * Choose the branch from where Github will serve your blog.
+    <img src="../assets/Screenshot_3.jpg" alt="screenshot3" style="width:200px"/>
     * Choose a theme. Remember the name of the theme you choose.
 
 Congratulations! Now you have a blog hosted at www.username.github.io.

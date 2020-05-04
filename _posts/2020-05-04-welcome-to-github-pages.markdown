@@ -11,7 +11,7 @@ I didn’t know how and where to start. Everything I wanted is to keep it simple
 
 1. Create a Github repository 
 
-    <img src="../Screenshot_1.jpg" alt="screenshot1" style="width:200px"/>
+    ![Screenshot1](/assets/Screenshot_1.png)
 
     * Go to https://github.com/new
     * Give a name to your repository.(it should match the following pattern: username.github.io where username is your Github username)
@@ -22,10 +22,10 @@ I didn’t know how and where to start. Everything I wanted is to keep it simple
 2. Enable Github Pages. 
 
     * Go to the Settings menu. 
-    <img src="../Screenshot_2.jpg" alt="screenshot2" style="width:200px"/>
+    ![Screenshot2](/assets/Screenshot_2.png)
     * Scroll down to the Github Pages settings. 
     * Choose the branch from where Github will serve your blog.
-    <img src="../Screenshot_3.jpg" alt="screenshot3" style="width:200px"/>
+    ![Screenshot3](/assets/Screenshot_3.png)
     * Choose a theme. Remember the name of the theme you choose.
 
 Congratulations! Now you have a blog hosted at www.username.github.io.

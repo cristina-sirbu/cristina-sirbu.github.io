@@ -47,3 +47,20 @@
 .social-icons a:hover {
   background: #495057;
 }
+
+.language-toggle {
+  text-align: right;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+}
+
+.language-toggle a {
+  color: #6c757d;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.language-toggle a:hover {
+  color: #343a40;
+  text-decoration: underline;
+}

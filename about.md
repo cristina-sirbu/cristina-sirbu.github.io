@@ -1,28 +1,22 @@
 ---
 layout: page
 title: About Me
-description: Who I am, how I work, and what motivates me.
+# description: Who I am, how I work, and what motivates me.
 background: '/img/bg-about.jpg'
 ---
 
-Hi, I'm **Cristina Junca** — a backend engineer with 9+ years of experience building reliable systems in cross-functional teams.
+<div class="language-toggle">
+  🇬🇧 English | <a href="/about-se/">🇸🇪 Svenska</a>
+</div>
 
-I enjoy working with infrastructure, developer experience, and clean backend code. I care about writing things down, helping others, and improving everyday workflows.
+## About Me
 
-🛠 **Things I work with:**
-- Java, Spring Boot, Maven
-- Kubernetes, Docker, GitHub Actions
-- Terraform, a bit of Go (learning by doing)
-- CI/CD, alerting, internal tooling
+I am a backend engineer who enjoys understanding how systems work and how to make them better. Over the years, I’ve been involved in platform work, developer experience and backend feature development (mostly using Java, Kubernetes and CI/CD tooling).
 
-🤝 **How I work:**
-I like solving real problems, taking shared responsibility, and collaborating in a calm and honest way. I'm not a rockstar or ninja – just someone who tries to be helpful and dependable.
+In recent projects, I have helped improve deployment workflows using Tekton and ArgoCD, documented and supported teams through a platform migration and introduced a more transparent way to track technical decisions with Architectural Decision Records. I also built a CLI tool in Go to simplify developer onboarding.
 
-🎯 **What motivates me:**
-I'm driven by meaningful work, supportive teams, and good communication. I enjoy learning from colleagues and taking initiative when something can be improved.
+I usually approach engineering with curiosity and a focus on clarity. I often ask “Could this be simpler?”. Not to challenge decisions, but to reduce friction for the team and improve long-term maintainability. I work well in distributed teams, enjoy async collaboration and value documentation as a shared resource.
 
-📌 I live in Stockholm and I'm looking for roles where I can contribute to backend systems, tooling, or infrastructure — ideally in a company that values focus, kindness, and transparency.
+Outside of work, I remain curious. I often explore new ideas or technologies after hours by experimenting with backend tools or reading about system design. I also enjoy learning outside tech. I spend time reading about personal development and I have taken an interest in calligraphy for its calm and focus.
 
-Links:  
-🔗 [GitHub](https://github.com/cristina-sirbu)  
-🔗 [LinkedIn](https://linkedin.com/in/your-handle)
+Thanks for stopping by! 🙂

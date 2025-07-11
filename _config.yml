@@ -12,6 +12,7 @@ linkedin_username:  cristina-junca
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   G-M2Z0W7C1GH # out your google-analytics code
+formspree:    mzzgnyvn # out your formspree email code
 
 # Build settings
 markdown:           kramdown

@@ -52,45 +52,195 @@ background: '/img/bg-cv.jpg'
   animation: fadeInUp;
   animation-duration: 1s;
 }
+
+.skills-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.skill-level-title {
+  font-weight: 600;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.skill-badge {
+  padding: 0.5rem 0.75rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
+  background: #f3f3f3;
+  border-left: 4px solid #ccc;
+}
+
+.level-advanced,
+.level-intermediate,
+.level-learning {
+  border-left-color: #006699;
+  background: #cce9f7;
+}
+
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-top: 1em;
+}
+
+.language-badge {
+  background-color: #006699;
+  color: white;
+  padding: 0.4em 0.8em;
+  border-radius: 20px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.language-badge small {
+  font-size: 0.75em;
+  opacity: 0.85;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: #007acc;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 0.5em;
+  padding: 0;
+}
+.toggle-btn:hover {
+  text-decoration: underline;
+}
+
 </style>
 
-<h2>Experience</h2>
+<h2 class="section-title">Experience</h2>
 <div class="timeline">
   <div class="timeline-item animate__animated animate__fadeInUp">
     <div class="timeline-time">2020–2025</div>
     <div class="timeline-title">Senior Backend Engineer, Garmin</div>
-    <div class="timeline-content">
-      Technical ownership of backend infrastructure, mentoring, CI/CD improvements.
+    <button class="toggle-btn" aria-expanded="false">Show more</button>
+    <div class="timeline-content" style="display: none;">
+      <ul>
+        <li>Built RESTful Java microservices backed by PostgreSQL and integrated RabbitMQ consumers to support asynchronous communication in an internal event-driven architecture.</li>
+        <li>Contributed to platform engineering efforts by standardizing CI/CD templates and deployment strategies across multiple microservices using Tekton and ArgoCD.</li>
+        <li>Built CLI tooling in Go to automate team onboarding.</li>
+        <li>Delivered an internal talk to share knowledge on Kubernetes, Tekton, GitOps and ArgoCD. (<em>Kubernetes and its friends</em>)</li>
+        <li>Documented workflows and created playbooks used by other teams as part of a cross-team platform migration.</li>
+        <li>Introduced ADRs (Architectural Decision Records) to improve visibility into engineering decisions.</li>
+      </ul>
     </div>
   </div>
   <div class="timeline-item animate__animated animate__fadeInUp">
     <div class="timeline-time">2017–2020</div>
     <div class="timeline-title">Software Engineer, Ness Digital Engineering</div>
-    <div class="timeline-content">
-      Developed backend features using Java and Spring Boot.
+    <button class="toggle-btn" aria-expanded="false">Show more</button>
+    <div class="timeline-content" style="display: none;">
+      <ul>
+        <li>Had exposure to the Activiti BPM engine.</li>
+        <li>Built containerized deployment mechanisms using Docker, Kubernetes and Helm.</li>
+        <li>Implemented Alfresco integration within Salesforce</li>
+      </ul>
     </div>
   </div>
   <div class="timeline-item animate__animated animate__fadeInUp">
     <div class="timeline-time">2015–2017</div>
-    <div class="timeline-title">QA Engineer, Ness</div>
-    <div class="timeline-content">
-      Created automated test suites and supported quality assurance workflows.
+    <div class="timeline-title">QA Engineer, Ness Digital Engineering</div>
+    <button class="toggle-btn" aria-expanded="false">Show more</button>
+    <div class="timeline-content" style="display: none;">
+      <ul>
+        <li>Created automated test suites using Java and Selenium API.</li>
+        <li>Supported quality assurance workflows.</li>
+      </ul>
     </div>
   </div>
 </div>
 
-<h2>Education & Certifications</h2>
-<ul>
-  <li>Bachelor's in Computer Science</li>
-  <li>CKA, CKAD, ISTQB Certified Tester</li>
-</ul>
+<h2 class="section-title">Technical Skills</h2>
+<div class="skills-section">
 
-<h2>Technical Skills</h2>
-<p>Java, Spring Boot, Docker, Kubernetes, PostgreSQL, GitHub Actions, Go (learning), Terraform (learning)</p>
+  <div class="skill-level-title">Primary experience:</div>
+  <div class="skills-grid">
+    <span class="skill-badge level-advanced">Java</span>
+    <span class="skill-badge level-advanced">Spring Boot</span>
+    <span class="skill-badge level-advanced">CI/CD</span>
+    <span class="skill-badge level-advanced">Docker</span>
+    <span class="skill-badge level-advanced">Kubernetes</span>
+    <span class="skill-badge level-advanced">Helm</span>
+    <span class="skill-badge level-advanced">GitOps</span>
+    <span class="skill-badge level-advanced">Tekton</span>
+    <span class="skill-badge level-advanced">ArgoCD</span>
+  </div>
 
-<h2>Languages</h2>
-<p>English (fluent), Swedish (B2), Romanian (native)</p>
+  <div class="skill-level-title">Also Used</div>
+  <div class="skills-grid">
+    <span class="skill-badge level-intermediate">KNative</span>
+    <span class="skill-badge level-intermediate">RabbitMQ</span>
+    <span class="skill-badge level-intermediate">AWS</span>
+    <span class="skill-badge level-intermediate">Activiti BPM</span>
+  </div>
 
+  <div class="skill-level-title">Currently Learning</div>
+  <div class="skills-grid">
+    <span class="skill-badge level-learning">Go</span>
+    <span class="skill-badge level-learning">Python</span>
+    <span class="skill-badge level-learning">Terraform</span>
+    <span class="skill-badge level-learning">GCP</span>
+  </div>
+</div>
+
+<h2 class="section-title">Education & Certifications</h2>
+<div class="timeline">
+  <div class="timeline-item animate__animated animate__fadeInUp">
+    <div class="timeline-time">2020</div>
+    <div class="timeline-title">Certified Kubernetes Administrator</div>
+  </div>
+  <div class="timeline-item animate__animated animate__fadeInUp">
+    <div class="timeline-time">2020</div>
+    <div class="timeline-title">Certified Kubernetes Application Developer</div>
+  </div>
+  <div class="timeline-item animate__animated animate__fadeInUp">
+    <div class="timeline-time">2015</div>
+    <div class="timeline-title">ISTQB Certified Tester</div>
+  </div>
+  <div class="timeline-item animate__animated animate__fadeInUp">
+    <div class="timeline-time">2013–2016</div>
+    <div class="timeline-title">Bachelor’s in Computer Science</div>
+  </div>
+</div>
+
+<h2 class="section-title">Languages</h2>
+<div class="languages">
+  <span class="language-badge">English <small>(fluent)</small></span>
+  <span class="language-badge">Swedish <small>B2</small></span>
+  <span class="language-badge">Romanian <small>(native)</small></span>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggles = document.querySelectorAll(".toggle-btn");
+    toggles.forEach(btn => {
+      btn.addEventListener("click", function () {
+        const content = this.nextElementSibling;
+        const expanded = this.getAttribute("aria-expanded") === "true";
+        this.setAttribute("aria-expanded", !expanded);
+        this.textContent = expanded ? "Show more" : "Show less";
+        content.style.display = expanded ? "none" : "block";
+      });
+    });
+  });
+</script>
 
 <!-- 
 <h2>PDF-version</h2>

@@ -10,6 +10,7 @@ permalink: /cv-se/
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"/>
+
 <style>
 .timeline {
   position: relative;
@@ -51,41 +52,191 @@ permalink: /cv-se/
   animation: fadeInUp;
   animation-duration: 1s;
 }
+
+.skills-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.skill-level-title {
+  font-weight: 600;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.skill-badge {
+  padding: 0.5rem 0.75rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
+  background: #f3f3f3;
+  border-left: 4px solid #ccc;
+}
+
+.level-advanced,
+.level-intermediate,
+.level-learning {
+  border-left-color: #006699;
+  background: #cce9f7;
+}
+
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-top: 1em;
+}
+
+.language-badge {
+  background-color: #006699;
+  color: white;
+  padding: 0.4em 0.8em;
+  border-radius: 20px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.language-badge small {
+  font-size: 0.75em;
+  opacity: 0.85;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: #007acc;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 0.5em;
+  padding: 0;
+}
+.toggle-btn:hover {
+  text-decoration: underline;
+}
+
 </style>
 
-<h2>Erfarenhet</h2>
+<h2 class="section-title">Erfarenhet</h2>
 <div class="timeline">
   <div class="timeline-item animate__animated animate__fadeInUp">
     <div class="timeline-time">2020–2025</div>
     <div class="timeline-title">Senior Backendutvecklare, Garmin</div>
-    <div class="timeline-content">
-      Tekniskt ansvar för backendinfrastruktur, handledning av kollegor, förbättring av CI/CD-processer.
+    <button class="toggle-btn" aria-expanded="false">Visa mer</button>
+    <div class="timeline-content" style="display: none;">
+      <ul>
+        <li>Byggde REST-baserade mikrotjänster i Java med PostgreSQL och integrerade RabbitMQ för asynkron kommunikation i en intern händelsebaserad arkitektur.</li>
+        <li>Bidrog till plattformsutveckling genom att standardisera CI/CD-mallar och distributionsstrategier för flera mikrotjänster med Tekton och ArgoCD.</li>
+        <li>Utvecklade CLI-verktyg i Go för att automatisera onboarding av teammedlemmar.</li>
+        <li>Höll intern föreläsning om Kubernetes, Tekton, GitOps och ArgoCD (<em>Kubernetes and its friends</em>).</li>
+        <li>Skapade dokumentation och playbooks som användes av andra team under en plattformsövergång.</li>
+        <li>Införde ADR:er (Architectural Decision Records) för att förbättra synligheten kring tekniska beslut.</li>
+      </ul>
     </div>
   </div>
   <div class="timeline-item animate__animated animate__fadeInUp">
     <div class="timeline-time">2017–2020</div>
     <div class="timeline-title">Systemutvecklare, Ness Digital Engineering</div>
-    <div class="timeline-content">
-      Utvecklade backendfunktioner med Java och Spring Boot.
+    <button class="toggle-btn" aria-expanded="false">Visa mer</button>
+    <div class="timeline-content" style="display: none;">
+      <ul>
+        <li>Arbetade med Activiti BPM-motor.</li>
+        <li>Byggde containerbaserade distributionslösningar med Docker, Kubernetes och Helm.</li>
+        <li>Genomförde Alfresco-integration i Salesforce.</li>
+      </ul>
     </div>
   </div>
   <div class="timeline-item animate__animated animate__fadeInUp">
     <div class="timeline-time">2015–2017</div>
-    <div class="timeline-title">Testingenjör, Ness</div>
-    <div class="timeline-content">
-      Skapade automatiserade testsviter och stöttade kvalitetsarbetet.
+    <div class="timeline-title">Testingenjör, Ness Digital Engineering</div>
+    <button class="toggle-btn" aria-expanded="false">Visa mer</button>
+    <div class="timeline-content" style="display: none;">
+      <ul>
+        <li>Utvecklade automatiserade testsviter i Java med Selenium.</li>
+        <li>Stödde kvalitetssäkringsprocesser.</li>
+      </ul>
     </div>
   </div>
 </div>
 
-<h2>Utbildning & Certifieringar</h2>
-<ul>
-  <li>Kandidatexamen i datavetenskap</li>
-  <li>CKA, CKAD, ISTQB-certifierad testare</li>
-</ul>
+<h2 class="section-title">Tekniska färdigheter</h2>
+<div class="skills-section">
+  <div class="skill-level-title">Primär erfarenhet:</div>
+  <div class="skills-grid">
+    <span class="skill-badge level-advanced">Java</span>
+    <span class="skill-badge level-advanced">Spring Boot</span>
+    <span class="skill-badge level-advanced">CI/CD</span>
+    <span class="skill-badge level-advanced">Docker</span>
+    <span class="skill-badge level-advanced">Kubernetes</span>
+    <span class="skill-badge level-advanced">Helm</span>
+    <span class="skill-badge level-advanced">GitOps</span>
+    <span class="skill-badge level-advanced">Tekton</span>
+    <span class="skill-badge level-advanced">ArgoCD</span>
+  </div>
 
-<h2>Tekniska färdigheter</h2>
-<p>Java, Spring Boot, Docker, Kubernetes, PostgreSQL, GitHub Actions, Go (under inlärning), Terraform (under inlärning)</p>
+  <div class="skill-level-title">Tidigare använt</div>
+  <div class="skills-grid">
+    <span class="skill-badge level-intermediate">KNative</span>
+    <span class="skill-badge level-intermediate">RabbitMQ</span>
+    <span class="skill-badge level-intermediate">AWS</span>
+    <span class="skill-badge level-intermediate">Activiti BPM</span>
+  </div>
 
-<h2>Språk</h2>
-<p>Engelska (flytande), Svenska (B2), Rumänska (modersmål)</p>
+  <div class="skill-level-title">Pågående inlärning</div>
+  <div class="skills-grid">
+    <span class="skill-badge level-learning">Go</span>
+    <span class="skill-badge level-learning">Python</span>
+    <span class="skill-badge level-learning">Terraform</span>
+    <span class="skill-badge level-learning">GCP</span>
+  </div>
+</div>
+
+<h2 class="section-title">Utbildning & Certifieringar</h2>
+<div class="timeline">
+  <div class="timeline-item animate__animated animate__fadeInUp">
+    <div class="timeline-time">2020</div>
+    <div class="timeline-title">Certifierad Kubernetes-administratör (CKA)</div>
+  </div>
+  <div class="timeline-item animate__animated animate__fadeInUp">
+    <div class="timeline-time">2020</div>
+    <div class="timeline-title">Certifierad Kubernetes-applikationsutvecklare (CKAD)</div>
+  </div>
+  <div class="timeline-item animate__animated animate__fadeInUp">
+    <div class="timeline-time">2015</div>
+    <div class="timeline-title">ISTQB-certifierad testare</div>
+  </div>
+  <div class="timeline-item animate__animated animate__fadeInUp">
+    <div class="timeline-time">2013–2016</div>
+    <div class="timeline-title">Kandidatexamen i datavetenskap</div>
+  </div>
+</div>
+
+<h2 class="section-title">Språk</h2>
+<div class="languages">
+  <span class="language-badge">Engelska <small>(flytande)</small></span>
+  <span class="language-badge">Svenska <small>B2</small></span>
+  <span class="language-badge">Rumänska <small>(modersmål)</small></span>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggles = document.querySelectorAll(".toggle-btn");
+    toggles.forEach(btn => {
+      btn.addEventListener("click", function () {
+        const content = this.nextElementSibling;
+        const expanded = this.getAttribute("aria-expanded") === "true";
+        this.setAttribute("aria-expanded", !expanded);
+        this.textContent = expanded ? "Visa mer" : "Visa mindre";
+        content.style.display = expanded ? "none" : "block";
+      });
+    });
+  });
+</script>

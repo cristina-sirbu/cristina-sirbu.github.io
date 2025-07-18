@@ -3,7 +3,7 @@ layout: page
 title: "Om mig"
 permalink: /about-se/
 # description: Who I am, how I work, and what motivates me.
-background: '/img/bg-about.jpg'
+background: '/img/about-me.jpg'
 ---
 
 <div class="language-toggle">

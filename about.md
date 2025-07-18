@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Me
+permalink: /about/
 # description: Who I am, how I work, and what motivates me.
 background: '/img/about-me.jpg'
 ---

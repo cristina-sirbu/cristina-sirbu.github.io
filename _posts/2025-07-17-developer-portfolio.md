@@ -1,7 +1,7 @@
 ---
 title: "How I Built My Blog"
 subtitle: "How it's made"
-date: 2025-07-17
+date: 2025-07-17 17:00
 layout: post
 tags: [jekyll, github-pages, career, developer-portfolio]
 background: '/img/posts/how-i-built-my-dev-portofolio.jpg'

@@ -12,12 +12,11 @@ background: '/img/about-me.jpg'
 
 ## Om mig
 
-Jag är en backendutvecklare som tycker om att förstå hur system fungerar och hur man kan göra dem bättre. Genom åren har jag arbetat med plattformsarbete, utvecklarupplevelse och utveckling av backendfunktioner (oftast med Java, Kubernetes och verktyg för CI/CD).
+Jag är en backendutvecklare som tycker om att förstå hur system fungerar och hur de kan förbättras. Jag har byggt tjänster i Java/Spring Boot med REST-API:er och RabbitMQ.
+Jag har även arbetat med CI/CD-pipelines och Kubernetes för att säkerställa smidiga leveranser.
 
-I senare projekt har jag hjälpt till att förbättra deployflöden med Tekton och ArgoCD, dokumenterat och stöttat team vid plattformsbyten, samt infört ett tydligare sätt att följa tekniska beslut med hjälp av Architectural Decision Records. Jag har också byggt ett CLI-verktyg i Go för att förenkla onboarding för utvecklare.
+I senare projekt har jag förbättrat deployments med Tekton och ArgoCD, infört ADR:er (Architectural Decision Records) för att följa upp tekniska beslut och utvecklat ett CLI-verktyg i Go för att förenkla onboarding av utvecklare.
 
-Jag närmar mig oftast ingenjörsarbete med nyfikenhet och fokus på tydlighet. Jag ställer ofta frågan “Kan det här göras enklare?”. Inte för att ifrågasätta beslut, utan för att minska friktion för teamet och förbättra långsiktig underhållbarhet. Jag trivs i distribuerade team, tycker om asynkront samarbete och ser dokumentation som en viktig gemensam resurs.
+Jag värdesätter tydlighet, samarbete och långsiktig underhållbarhet. I distribuerade team trivs jag med asynkron kommunikation, delad dokumentation och lösningar som minskar friktion.
 
-Utanför arbetet är jag fortsatt nyfiken. Jag utforskar ofta nya idéer eller tekniker efter arbetstid genom att experimentera med backendverktyg eller läsa om systemdesign. Jag tycker också om att lära mig saker utanför techvärlden. Just nu läser jag om personlig utveckling och har börjat med kalligrafi som en lugn och fokuserad hobby.
-
-Tack för att du tittade in! 🙂
+Utanför arbetet är jag fortsatt nyfiken: jag experimenterar med backendverktyg, läser om systemdesign och personlig utveckling och ägnar mig åt kalligrafi för dess lugn och fokus.

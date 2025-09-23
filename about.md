@@ -12,12 +12,11 @@ background: '/img/about-me.jpg'
 
 ## About Me
 
-I am a backend engineer who enjoys understanding how systems work and how to make them better. Over the years, I’ve been involved in platform work, developer experience and backend feature development (mostly using Java, Kubernetes and CI/CD tooling).
+I’m a backend engineer who enjoys understanding how systems work and making them better. Over the years, I’ve built Java/Spring Boot services with REST APIs and RabbitMQ. 
+I’ve also worked on CI/CD pipelines and Kubernetes to ensure smooth delivery.
 
-In recent projects, I have helped improve deployment workflows using Tekton and ArgoCD, documented and supported teams through a platform migration and introduced a more transparent way to track technical decisions with Architectural Decision Records. I also built a CLI tool in Go to simplify developer onboarding.
+Recent projects included improving deployment workflows with Tekton and ArgoCD, introducing ADRs to track technical decisions and building a Go CLI to simplify developer onboarding.
 
-I usually approach engineering with curiosity and a focus on clarity. I often ask “Could this be simpler?”. Not to challenge decisions, but to reduce friction for the team and improve long-term maintainability. I work well in distributed teams, enjoy async collaboration and value documentation as a shared resource.
+I value clarity, collaboration, and maintainability. In distributed teams I thrive on async communication, shared documentation and solutions that reduce friction for everyone.
 
-Outside of work, I remain curious. I often explore new ideas or technologies after hours by experimenting with backend tools or reading about system design. I also enjoy learning outside tech. I spend time reading about personal development and I have taken an interest in calligraphy for its calm and focus.
-
-Thanks for stopping by! 🙂
+Outside work, I stay curious: experimenting with backend tools, reading about system design and personal development and practicing calligraphy for calm and focus.
